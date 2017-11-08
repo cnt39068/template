@@ -1,4 +1,12 @@
 {
-  "plugins": ["uml"]
-}
+   "plugins" : [
+					 "redirect",
+	         "uml",
+	         "theme-comscore"],
+    "pluginsConfig": {
+        "theme-api": {
+            "theme": "dark"
+        }
+    }
 
+}
